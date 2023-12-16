@@ -1,38 +1,36 @@
 # Project-Planner
 
-group challenge to manage date, time and tasks plannification.
+Wouldn't it be nice to have a tool to manage our projects? Something that would allow us to track the progression of each requirements of our apps.
 
-## Mission
+This is the list of features we would like to see:
 
-- Create a public repository: `project-planner`
-- Duration: 3 days
-- Deadline: 05/10/2023 - 17:00
-- Submission form: https://forms.gle/NmuFm422g2AW3e4N8
-- repo link : [Project-Planner](https://github.com/tomboszko/Project-Planner.git)
-- deployed project link : [Project-planner](https://tomboszko.github.io/Project-Planner/)
+- Allow user to create tasks. Tasks should have a name, a description and a due date
+- Allow users to label their tasks with a status (ex: `to do`, `doing`, `done`)
+- Display the tasks, with their remaining time. For instance, if today is the 15th of March and the task is due for the 20th of March, display `in 5 days`.
+- Allow users to sort their tasks by remainining time, with the most urgent first, or by name.
+- Filter tasks (ex: only show "to do" tasks)
+- BONUS: Save tasks in LocalStorage, so that they persist even when the page is refreshed.
 
-## Team: 
+## Screenshots
 
-- Layla
-- Justine
-- Tom
-- 
-## Day 1 report:
+![Page Screenshot](readme-ressources/page-screenshot.png)
 
-We choosed to focus on backend first, so we used Bootstrap to have a working design in a easy way. (will be improved later)
 
-the first goal was to create a common index to ensure good organisation.
+## Badges
 
-We "mapped" all the functions needed to manage correctly all the task to accomplish.
+[![MIT License](https://img.shields.io/badge/HTML-red.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/JS-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/CSS-purple.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/SASS-pink.svg)](https://choosealicense.com/licenses/mit/)
 
-we made a simple directory in Sass to prevent merge conflicts.
 
-globally, it's quite cool to don't have struggles with design at the beginning.
+## work progress
 
-The girls are very good and fast with javascript. what a team !!!
+This project was made in October 2023 during a formation at BeCode. 
 
-Nor real issues, just some struggles with some 'bouts de codes' as usual.
+## Authors
 
-To be continued...
-
+- [@Tom](https://github.com/tomboszko)
+- [@Layla](https://github.com/LRI-2020)
+- And me
 
